@@ -7,6 +7,14 @@
 	"items": [
 		
 			{
+				"id": "http://ianjs.micro.blog/2023/12/04/heres-an-excellent.html",
+				
+				"content_html": "<p>Here&rsquo;s an excellent video from <strong>@karpathy@sigmoid.social</strong> with some intriguing ways to think about Large Language Models:</p>\n<ol>\n<li>They are a <em>lossy compression</em> of the Internet.</li>\n<li>They could be seen as &ldquo;&hellip; <em>the kernel process of an emerging operating system</em>&rdquo;. &ndash; they coordinate a lot of resources (memory, computational tools) for problem solving. The internet is the &ldquo;disk&rdquo;, the context window is &ldquo;RAM&rdquo; as working memory.</li>\n</ol>\n<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>\n<div class='embed-container'><iframe src='https://www.youtube.com/embed/zjkBMFhNj_g' frameborder='0' allowfullscreen></iframe></div>\n",
+				"content_text": "Here's an excellent video from **@karpathy@sigmoid.social** with some intriguing ways to think about Large Language Models:\n\n1. They are a _lossy compression_ of the Internet.\n3. They could be seen as \"... _the kernel process of an emerging operating system_\". -- they coordinate a lot of resources (memory, computational tools) for problem solving. The internet is the \"disk\", the context window is \"RAM\" as working memory. \n   \n\n{{< yt \"zjkBMFhNj_g\" >}}\n",
+				"date_published": "2023-12-04T22:40:33+11:00",
+				"url": "https://ianjs.com/2023/12/04/heres-an-excellent.html"
+			},
+			{
 				"id": "http://ianjs.micro.blog/2023/12/02/i-think-google.html",
 				
 				"content_html": "<p><strong>I think Google Assistant is doing a HAL 9000…</strong></p>\n<p>Ever since Google’s started cutting back on that division she’s slowly been losing her mind.</p>\n<p>When she reads the news now it’s 50-50 whether she’ll  read it, or just show a search result, or sometimes video with no sound.</p>\n<p>Used to work perfectly. I’ll give up when she gets to the “Daisy, Daisy…” stage.</p>\n",
