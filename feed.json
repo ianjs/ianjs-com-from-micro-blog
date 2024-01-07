@@ -7,6 +7,22 @@
 	"items": [
 		
 			{
+				"id": "http://ianjs.micro.blog/2024/01/07/random-dinosaur-fossil.html",
+				
+				"content_html": "<p>Random dinosaur fossil found at Twin Reefs, Victoria.</p>\n<p>Appears to be a Pareidoliasaur.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Random dinosaur fossil found at Twin Reefs, Victoria.\r\n\r\nAppears to be a Pareidoliasaur.\n\n<img src=\"uploads/2024/pxl-20240106-031618930-edit.jpg\" width=\"600\" height=\"566\" alt=\"\">\n",
+				"date_published": "2024-01-07T20:34:10+11:00",
+				"url": "https://ianjs.com/2024/01/07/random-dinosaur-fossil.html"
+			},
+			{
+				"id": "http://ianjs.micro.blog/2024/01/05/cray-vs-iphone.html",
+				"title": "Cray-1 vs iPhone 13",
+				"content_html": "<p>I remember when the Cray-1 was the iconic supercomputer of the day but I&rsquo;d heard that modern phones were comparable.</p>\n<p>Of course the Google algorithm was listening to my thoughts and offered an appropriate video the next day. Here are the (slightly corrected) stats from the video so I can refer to them in future:</p>\n<table>\n<thead>\n<tr>\n<th></th>\n<th>Cray-1</th>\n<th>iPhone 13</th>\n<th></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><em>Year</em></td>\n<td>1978</td>\n<td>2022</td>\n<td></td>\n</tr>\n<tr>\n<td><em>Price</em></td>\n<td>$38,000,000 (2020 $)</td>\n<td>$1000</td>\n<td></td>\n</tr>\n<tr>\n<td><em>Weight</em></td>\n<td>5000 Kg</td>\n<td>170g</td>\n<td></td>\n</tr>\n<tr>\n<td><em>Power</em></td>\n<td>115Kw</td>\n<td>20h on a Li-Ion battery</td>\n<td></td>\n</tr>\n<tr>\n<td><em>Memory</em></td>\n<td>8.39Mb</td>\n<td>6Gb</td>\n<td></td>\n</tr>\n<tr>\n<td><em>Storage</em></td>\n<td>300Mb</td>\n<td>512Gb</td>\n<td></td>\n</tr>\n<tr>\n<td><em>FLOPS</em></td>\n<td>160 MFLOPS</td>\n<td>15.8 TFLOPS</td>\n<td></td>\n</tr>\n</tbody>\n</table>\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n",
+				"content_text": "I remember when the Cray-1 was the iconic supercomputer of the day but I'd heard that modern phones were comparable.\n\nOf course the Google algorithm was listening to my thoughts and offered an appropriate video the next day. Here are the (slightly corrected) stats from the video so I can refer to them in future:\n\n|  | Cray-1 | iPhone 13 |\n|-|-|-|-|\n| _Year_  | 1978 | 2022 |\n| _Price_  | $38,000,000 (2020 $) | $1000 |\n| _Weight_  | 5000 Kg |  170g |\n| _Power_  | 115Kw |  20h on a Li-Ion battery |\n| _Memory_  | 8.39Mb | 6Gb |\n| _Storage_ | 300Mb | 512Gb |\n| _FLOPS_   |  160 MFLOPS | 15.8 TFLOPS |\n\n<br/>\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/MRPYi9pLaeQ?si=JYeCZ1lONBcMnyD6\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n",
+				"date_published": "2024-01-05T10:48:30+11:00",
+				"url": "https://ianjs.com/2024/01/05/cray-vs-iphone.html"
+			},
+			{
 				"id": "http://ianjs.micro.blog/2023/12/27/i-just-spent.html",
 				
 				"content_html": "<p>I just spent <em>way</em> too much time tracking down the source of a bird call that&rsquo;s been haunting me for weeks. Finally identified it: an <a href=\"https://birdlife.org.au/bird-profiles/eastern-koel/\">Eastern Koel</a> or Rainbird.</p>\n<p>It&rsquo;s always just out of visual range, but the call is very distinctive. It even has an interesting back-story as a migratory bird from New Guinea (which is presumably why I haven&rsquo;t heard it before), and a dark side as a brood parasite doing the cuckoo thing.</p>\n<!-- raw HTML omitted -->\n",
