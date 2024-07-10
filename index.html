@@ -24,6 +24,50 @@
 	
 	  <div class="h-entry">
 		
+			<h1><a href="https://ianjs.com/2024/06/11/i-recently-decided.html">Humidity control of a bathroom fan in Home Assistant</a></h1>
+		
+
+		<a href="https://ianjs.com/2024/06/11/i-recently-decided.html" class="u-url"><time class="dt-published" datetime="2024-06-11 15:30:21 &#43;1000">Jun 11, 2024</time></a>
+
+		<div class="e-content">
+			 <p>I recently decided I wanted a Home Assistant automation to turn on the bathroom fan. I already had an ESPHome temperature/humidity sensor so it seemed simple enough - just trigger the fan when the humidity reached a certain level.</p>
+<p>The problem was <em>what level</em>? Humidity in the bathroom varies with the time of year and how long the shower is on. This looked like it could become a messy automation with a lot of tweaking.</p>
+<p>It turned out what I really wanted to trigger on was the <em>rate of change</em> of humidity; a spike in humidity is a good indicator the shower is on. The time window and the rate of change are the only things to tweak. Once you&rsquo;re happy with that, the absolute humidity doesn&rsquo;t matter.</p>
+<p>I messed about for a while trying to calculate this, then I discovered that HA already had it covered with the <em><strong>derivative</strong></em> platform. I created a sensor like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">sensor</span>:
+- <span style="color:#f92672">platform</span>: <span style="color:#ae81ff">derivative</span>
+  <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Bathroom humidity change</span>
+  <span style="color:#f92672">source</span>: <span style="color:#ae81ff">sensor.bathroom_humidity</span>
+  <span style="color:#f92672">unit_time</span>: <span style="color:#ae81ff">min</span>
+  <span style="color:#f92672">time_window</span>: <span style="color:#e6db74">&#34;00:05:00&#34;</span>
+</code></pre></div><p>which gives me a sensor to trigger the automation on:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">- <span style="color:#f92672">alias</span>: <span style="color:#e6db74">&#34;Bathroom: Turn on fan on fast change in humidity&#34;</span>
+  <span style="color:#f92672">trigger</span>:
+    <span style="color:#f92672">platform</span>: <span style="color:#ae81ff">numeric_state</span>
+    <span style="color:#f92672">entity_id</span>: <span style="color:#ae81ff">sensor.bathroom_humidity_change</span>
+    <span style="color:#f92672">above</span>: <span style="color:#ae81ff">2</span> <span style="color:#75715e"># Over n minutes the slope went above this value</span>
+  <span style="color:#f92672">action</span>:
+    <span style="color:#f92672">service</span>: <span style="color:#ae81ff">switch.turn_on</span>
+    <span style="color:#f92672">entity_id</span>: <span style="color:#ae81ff">switch.bathroom_fan</span>
+</code></pre></div><p>Now that it&rsquo;s on, it needs to be turned off some time later. I went with the easy way out and just left it on for a set time. It could probably  trigger on a negative value as the humidity decreases but I suspect that would be touchy to calibrate.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">- <span style="color:#f92672">alias</span>: <span style="color:#e6db74">&#34;Bathroom: Turn off fan after a while&#34;</span>
+  <span style="color:#f92672">trigger</span>:
+    <span style="color:#f92672">platform</span>: <span style="color:#ae81ff">state</span>
+    <span style="color:#f92672">entity_id</span>: <span style="color:#ae81ff">switch.bathroom_fan</span>
+    <span style="color:#f92672">to</span>: <span style="color:#e6db74">&#39;on&#39;</span>
+    <span style="color:#f92672">for</span>:
+      <span style="color:#f92672">minutes</span>: <span style="color:#ae81ff">30</span>
+  <span style="color:#f92672">action</span>:
+    <span style="color:#f92672">service</span>: <span style="color:#ae81ff">switch.turn_off</span>
+    <span style="color:#f92672">entity_id</span>: <span style="color:#ae81ff">switch.bathroom_fan</span>
+</code></pre></div><p>Finally for tweaking, and just because I can, I added a graph to show the interaction of the humidity and the sensor:</p>
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
 
 		<a href="https://ianjs.com/2024/01/28/vietnamese-restaurant-in.html" class="u-url"><time class="dt-published" datetime="2024-02-05 15:40:18 &#43;1000">Feb 5, 2024</time></a>
 
