@@ -33,7 +33,7 @@
 			 <p>I recently decided I wanted a Home Assistant automation to turn on the bathroom fan. I already had an ESPHome temperature/humidity sensor so it seemed simple enough - just trigger the fan when the humidity reached a certain level.</p>
 <p>The problem was <em>what level</em>? Humidity in the bathroom varies with the time of year and how long the shower is on. This looked like it could become a messy automation with a lot of tweaking.</p>
 <p>It turned out what I really wanted to trigger on was the <em>rate of change</em> of humidity; a spike in humidity is a good indicator the shower is on. The time window and the rate of change are the only things to tweak. Once you&rsquo;re happy with that, the absolute humidity doesn&rsquo;t matter.</p>
-<p>I messed about for a while trying to calculate this, then I discovered that HA already had it covered with the <em><strong>derivative</strong></em> platform. I created a sensor like this:</p>
+<p>I messed about for a while trying to calculate this, then I discovered HA already had it covered with the <a href="https://www.home-assistant.io/integrations/derivative/platform"><em><strong>derivative</strong></em></a> integration. I created a sensor like this:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">sensor</span>:
 - <span style="color:#f92672">platform</span>: <span style="color:#ae81ff">derivative</span>
   <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Bathroom humidity change</span>
