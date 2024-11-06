@@ -7,6 +7,14 @@
 	"items": [
 		
 			{
+				"id": "http://ianjs.micro.blog/2024/11/06/it-was-a.html",
+				
+				"content_html": "<p>It was a bit of a weird joke in 2016, but WTF America? Again?</p>\n<p>My condolences. The fact it could even be <em>close</em> confirms your country is fundamentally broken.</p>\n<p>I hope you can dig your way out of this hole, but I&rsquo;ve just watched my faith in humanity disappear down the toilet so I&rsquo;m switching off the shitshow for a few years.</p>\n<p>Good luck.</p>\n",
+				"content_text": "It was a bit of a weird joke in 2016, but WTF America? Again?\r\n\r\nMy condolences. The fact it could even be _close_ confirms your country is fundamentally broken.\r\n\r\nI hope you can dig your way out of this hole, but I've just watched my faith in humanity disappear down the toilet so I'm switching off the shitshow for a few years.\r\n\r\nGood luck.\n",
+				"date_published": "2024-11-06T20:11:03+11:00",
+				"url": "https://ianjs.com/2024/11/06/it-was-a.html"
+			},
+			{
 				"id": "http://ianjs.micro.blog/2024/10/24/i-was-a.html",
 				
 				"content_html": "<p>I was a bit pissed off the other day when I looked up <a href=\"https://x.com/justLV/status/1681377298308820992\">an old Twitter thread</a> to find it had been spammed by someone at <!-- raw HTML omitted -->bland.ai<!-- raw HTML omitted --> . Not cool.</p>\n<p>Despite the shitty tactic, I couldn&rsquo;t resist the clickbait.</p>\n<p>They provide automated phone agents and will call you for a demo, so I tried it. I was actually pretty impressed. I threw a bunch of nonsense and non sequiturs at her, but she patiently waited then steered the conversation back on track. If I spoke over her she stopped talking, listened to what I said, and responded appropriately.</p>\n<p>Just for fun, I decided to pit her against <a href=\"https://www.lennytroll.com/\">Lenny</a> so I forwarded the call to him.</p>\n<p>Lenny is a series of cleverly-constructed canned responses designed to infuriate spammers and cold callers. The recordings are generic enough to keep them on the line as he waffles and wanders till they finally give up in frustration.</p>\n<p>Here&rsquo;s how it went:  <!-- raw HTML omitted --></p>\n<!-- raw HTML omitted -->\n<p>She didn&rsquo;t do too badly. Lenny is just a dumb series of fixed responses, but Bland.ai was unfazed and patiently tried to explain. When it was obvious that the conversation was going nowhere, she politely wound up the conversation.</p>\n<blockquote>\n<p><em>&ldquo;Don&rsquo;t anthropomorphize computers – they hate it.”  — Andrew McAfee.</em></p>\n</blockquote>\n",
@@ -36,7 +44,7 @@
 				"id": "http://ianjs.micro.blog/2024/01/28/vietnamese-restaurant-in.html",
 				
 				"content_html": "<p>Vietnamese restaurant in Balaclava, Melbourne.</p>\n<p>One wall is the remnants of an outside wall with the posters still on it.</p>\n<p>Cigarette advertising was banned in Australia in 1976 so that, and the price-tag of 35c for a packet, dates it to around the early seventies.</p>\n<p>Dammit. That&rsquo;s nearly half a century ago and I remember all of these.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Vietnamese restaurant in Balaclava, Melbourne. \n\nOne wall is the remnants of an outside wall with the posters still on it. \n\nCigarette advertising was banned in Australia in 1976 so that, and the price-tag of 35c for a packet, dates it to around the early seventies. \n\nDammit. That's nearly half a century ago and I remember all of these.\n\n<img src=\"uploads/2024/1e38314634.jpg\" width=\"600\" height=\"451\" alt=\"\">\n",
+				"content_text": "Vietnamese restaurant in Balaclava, Melbourne. \n\nOne wall is the remnants of an outside wall with the posters still on it. \n\nCigarette advertising was banned in Australia in 1976 so that, and the price-tag of 35c for a packet, dates it to around the early seventies. \n\nDammit. That's nearly half a century ago and I remember all of these.\n\n<img src=\"https://cdn.uploads.micro.blog/130050/2024/1e38314634.jpg\" width=\"600\" height=\"451\" alt=\"\">\n",
 				"date_published": "2024-02-05T16:40:18+11:00",
 				"url": "https://ianjs.com/2024/01/28/vietnamese-restaurant-in.html",
 				"tags": ["Not nerdy"]
