@@ -7,12 +7,13 @@
 	"items": [
 		
 			{
-				"id": "http://ianjs.micro.blog/2025/01/12/news-flash-apple-solves-the.html",
+				"id": "http://ianjs.micro.blog/2025/01/19/democracy-dies-in-a-rebrand.html",
 				
-				"content_html": "<p>News flash: Apple solves the problem with their AI summaries by adding a disclaimer that says “this is problem bullshit, so you should ignore it”.</p>\n<p><a href=\"https://arstechnica.com/gadgets/2025/01/apple-plans-software-update-after-ai-summaries-get-news-headlines-wrong/\">arstechnica.com/gadgets/2&hellip;</a></p>\n",
-				"content_text": " News flash: Apple solves the problem with their AI summaries by adding a disclaimer that says “this is problem bullshit, so you should ignore it”. \n\n[arstechnica.com/gadgets/2...](https://arstechnica.com/gadgets/2025/01/apple-plans-software-update-after-ai-summaries-get-news-headlines-wrong/)\n",
-				"date_published": "2025-01-12T20:43:14+11:00",
-				"url": "https://ianjs.com/2025/01/12/news-flash-apple-solves-the.html"
+				"content_html": "<p><a href=\"https://www.theindex.media/democracy-dies-in-a-rebrand/\">Democracy Dies in a Rebrand</a></p>\n<blockquote>\n<p><em>The Washington Post, formerly one of America&rsquo;s most respected newspapers and home to the slogan &ldquo;Democracy Dies in Darkness&rdquo; unveiled its new mission statement this week: &ldquo;Riveting Storytelling for All of America.&quot;</em></p>\n</blockquote>\n<p>This smells a lot like the time Google dropped their unofficial &ldquo;<a href=\"https://en.wikipedia.org/wiki/Don%27t_be_evil\">Don&rsquo;t be Evil</a>&rdquo; motto in favor of the watered-down &ldquo;do the right thing&rdquo; &ndash; bland double-speak that can be interpreted any way they choose.</p>\n",
+				"content_text": "  [Democracy Dies in a Rebrand](https://www.theindex.media/democracy-dies-in-a-rebrand/)\n\n> *The Washington Post, formerly one of America's most respected newspapers and home to the slogan \"Democracy Dies in Darkness\" unveiled its new mission statement this week: \"Riveting Storytelling for All of America.\"*\n\nThis smells a lot like the time Google dropped their unofficial \"[Don't be Evil](https://en.wikipedia.org/wiki/Don%27t_be_evil)\" motto in favor of the watered-down \"do the right thing\" -- bland double-speak that can be interpreted any way they choose. \n\n",
+				"date_published": "2025-01-19T17:32:15+11:00",
+				"url": "https://ianjs.com/2025/01/19/democracy-dies-in-a-rebrand.html",
+				"tags": ["Not nerdy"]
 			},
 			{
 				"id": "http://ianjs.micro.blog/2024/12/26/on-january-th-as-one.html",
@@ -35,7 +36,7 @@
 				"id": "http://ianjs.micro.blog/2024/11/23/the-grandkids-are.html",
 				
 				"content_html": "<p>The grandkids are playing around with my old Pentax ME film camera.</p>\n<p>It’s a great opportunity to explain how cameras work. Open the back to see the shutter open. Take off the lens to see the mirror flip away.</p>\n<p>“<em>But how do you see the pictures?</em>”.</p>\n<p>I explained the process of taking up to 24 photos, rewinding the film, sending it to the chemist, they send it to the lab, wait a week, find out everyone was blinking.</p>\n<p>Quote of the week: “<em>wait… you had to pay to take pictures…???</em>”</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "The grandkids are playing around with my old Pentax ME film camera.\n\nIt’s a great opportunity to explain how cameras work. Open the back to see the shutter open. Take off the lens to see the mirror flip away.\n\n“_But how do you see the pictures?_”.\n\nI explained the process of taking up to 24 photos, rewinding the film, sending it to the chemist, they send it to the lab, wait a week, find out everyone was blinking.\n\nQuote of the week: “_wait… you had to pay to take pictures…???_”\n\n<img src=\"https://cdn.uploads.micro.blog/130050/2024/unnamed.jpg\" width=\"600\" height=\"523\" alt=\"\">\n",
+				"content_text": "The grandkids are playing around with my old Pentax ME film camera.\n\nIt’s a great opportunity to explain how cameras work. Open the back to see the shutter open. Take off the lens to see the mirror flip away.\n\n“_But how do you see the pictures?_”.\n\nI explained the process of taking up to 24 photos, rewinding the film, sending it to the chemist, they send it to the lab, wait a week, find out everyone was blinking.\n\nQuote of the week: “_wait… you had to pay to take pictures…???_”\n\n<img src=\"uploads/2024/unnamed.jpg\" width=\"600\" height=\"523\" alt=\"\">\n",
 				"date_published": "2024-11-23T15:35:42+11:00",
 				"url": "https://ianjs.com/2024/11/23/the-grandkids-are.html",
 				"tags": ["Not nerdy"]
